@@ -1,0 +1,118 @@
+/* ---------- PAGE STYLE ---------- */
+body {
+  background: #f7f9fc;           /* Bright clean background */
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1d3557;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- CENTER WRAPPER ---------- */
+.container {
+  text-align: center;
+  margin-top: 70px;
+  animation: fadeIn 0.7s ease-out;
+}
+
+/* ---------- HEADING ---------- */
+h1 {
+  font-size: 36px;
+  color: #1d3557;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* ---------- FORM ---------- */
+form {
+  display: inline-block;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  border: 1px solid #e5eaf0;
+  animation: fadeInUp 0.7s ease;
+}
+
+/* ---------- INPUT FIELD ---------- */
+input[type=text] {
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #c6d4e1;
+  width: 240px;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+input[type=text]:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+}
+
+/* ---------- SUBMIT BUTTON ---------- */
+input[type=submit] {
+  background: #4a90e2;            /* Blue modern */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.25s ease;
+  font-weight: 600;
+}
+
+input[type=submit]:hover {
+  background: #357abd;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+/* ---------- RESULT BOX ---------- */
+.result-container {
+  margin-top: 35px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  border: 1px solid #e0e5eb;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  animation: fadeIn 0.7s ease-out;
+}
+
+.result-container p {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+/* Success & Error text */
+.success {
+  color: #2eb872;
+  font-weight: 600;
+}
+
+.error {
+  color: #e63946;
+  font-weight: 600;
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.status{
+  text-align: center;
+  font-size: 30px;
+
+}

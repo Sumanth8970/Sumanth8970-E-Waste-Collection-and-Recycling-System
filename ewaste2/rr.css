@@ -1,0 +1,30 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #008000;
+  margin-bottom: 20px;
+}
+
+/* Optional styling for link */
+a {
+  color: #008000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
